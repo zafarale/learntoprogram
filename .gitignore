@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/osx,linux,c,c++,rust,cmake
-# Edit at https://www.toptal.com/developers/gitignore?templates=osx,linux,c,c++,rust,cmake
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,osx,rust,linux,cmake,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,osx,rust,linux,cmake,visualstudiocode
 
 ### C ###
 # Prerequisites
@@ -150,9 +150,23 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 
-# End of https://www.toptal.com/developers/gitignore/api/osx,linux,c,c++,rust,cmake
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
+# Local History for Visual Studio Code
+.history/
 
-# Added by cargo
+# Built Visual Studio Code Extensions
+*.vsix
 
-/target
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,osx,rust,linux,cmake,visualstudiocode

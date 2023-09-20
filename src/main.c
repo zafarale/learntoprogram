@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "bubble.h"
+#include "algorithms.h"
 
 int main() {
-    printf("Hello");
+    bubble_sort();
+    printf("Hello ");
 }
