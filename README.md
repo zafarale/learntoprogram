@@ -45,4 +45,7 @@ Each language or its ecosystem provides some almost defacto standard for buildin
     4. Linker
        - Linking extenral libraries
        - Executable 
-
+       - 
+### Toolchain
+    Defined set of tools used in conjunction to build, deploy and test a complex software development task. 
+Every developer is used to of its most simplest form i.e compiler/linker, to analyze, transforma nd transcode one language to another which is understandable by the runtime machine wheter it be a virtual or real.
