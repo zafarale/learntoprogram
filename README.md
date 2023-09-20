@@ -46,4 +46,3 @@ Each language or its ecosystem provides some almost defacto standard for buildin
        - Linking extenral libraries
        - Executable 
 
-## Art
